@@ -37,4 +37,39 @@ img.vert-move {
      0% { transform: translateY(0); }
      100% { transform: translateY(-10px); }
  }
- 
+ .bg-light {
+     background-color: #7f9fbf!important;
+ }
+.upload-section{
+     padding-top: 89px;
+     float: left;
+}
+.form-control {
+     display: block;
+     width: 100%;
+     height: calc(1.5em + 0.75rem + 2px);
+     padding: 2.375rem 0.75rem;
+     font-size: 1rem;
+     font-weight: 400;
+     line-height: 1.5;
+     color: #495057;
+     background-color: #fff;
+     background-clip: padding-box;
+     border: 1px solid #ced4da;
+     border-radius: 0.25rem;
+     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+ }
+ .table-section{
+     float: left;
+     padding-top: 80px;
+ }
+ .table {
+     width: 94%;
+     margin-bottom: 1rem;
+     color: #212529;
+ }
+
+ tr:hover{
+     background-color: black;
+     color: white;
+ }

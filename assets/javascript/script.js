@@ -12,11 +12,13 @@ function onclickSign(){
      }
      else{
           alert("Hello, Welcome")
-          window.location.href = 'home.html'
+          window.location.href="home.html"
      }
-     window.onbeforeunload = function() { return "Your work will be lost."; };
 }
 function logoutFunction() {
      alert('Logout Successfully')
      window.location.href = 'index.html'
 }
+$(function () {
+     $('[data-toggle="tooltip"]').tooltip();
+ });
